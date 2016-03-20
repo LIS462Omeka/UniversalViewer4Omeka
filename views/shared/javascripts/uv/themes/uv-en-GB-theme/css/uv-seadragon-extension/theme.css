@@ -294,8 +294,9 @@
 #app .headerPanel {
   color: #000;
 }
+/*changed background color of buttons from #565656 to #6F94AC*/
 #app .headerPanel a.imageBtn.first {
-  background-color: #565656;
+  background-color: #6F94AC;
   background-image: url('../../img/uv-pagingheaderpanel-module/first.png');
   background-repeat: no-repeat;
   margin: 0 0 0 0;
@@ -304,7 +305,7 @@
   background-color: #343434;
 }
 #app .headerPanel a.imageBtn.prev {
-  background-color: #565656;
+  background-color: #6F94AC;
   background-image: url('../../img/uv-pagingheaderpanel-module/prev.png');
   background-repeat: no-repeat;
   margin: 0 0 0 5px;
@@ -313,7 +314,7 @@
   background-color: #343434;
 }
 #app .headerPanel a.imageBtn.next {
-  background-color: #565656;
+  background-color: #6F94AC;
   background-image: url('../../img/uv-pagingheaderpanel-module/next.png');
   background-repeat: no-repeat;
   margin: 0 5px 0 0;
@@ -322,7 +323,7 @@
   background-color: #343434;
 }
 #app .headerPanel a.imageBtn.last {
-  background-color: #565656;
+  background-color: #6F94AC;
   background-image: url('../../img/uv-pagingheaderpanel-module/last.png');
   background-repeat: no-repeat;
   margin: 0 0 0 0;
@@ -447,12 +448,13 @@
 #app .centerPanel .content #viewer .navigator.extraMargin {
   margin: 0 30px 0 0 !important;
 }
+/*got rid of background color because of prev and next buttons*/
 #app .centerPanel .content #viewer .paging.btn {
   position: absolute !important;
   width: 30px;
   height: 90px;
   background-repeat: no-repeat;
-  background-color: #000;
+  /*background-color: #fff;*/
   background-position: 0px 50%;
   cursor: pointer;
   -webkit-border-radius: 0;
@@ -1252,10 +1254,11 @@ fieldset[disabled] .btn-default.active {
   background-color: #565656;
   border-color: #565656;
 }
+/*Changed to match other colors*/
 .btn-primary {
   color: #fff;
-  background-color: #14a4c3;
-  border-color: #14a4c3;
+  background-color: #6F94AC;
+  border-color: #6F94AC;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -1903,6 +1906,7 @@ input[type=range]:focus::-ms-fill-upper {
   float: left;
   cursor: pointer;
 }
+/*added background color to match*/
 #app .leftPanel .top .collapseButton {
   float: right;
   background: url('../../img/uv-shared-module/arrows_left.png') no-repeat;
@@ -1911,7 +1915,9 @@ input[type=range]:focus::-ms-fill-upper {
   cursor: pointer;
   margin: 7px 5px 0 0;
   display: block;
+  background-color: #6F94AC;
 }
+/*added background color to match rest of buttons*/
 #app .leftPanel .top .expandFullButton {
   float: right;
   background: url('../../img/uv-shared-module/arrows_right.png') no-repeat;
@@ -1920,6 +1926,7 @@ input[type=range]:focus::-ms-fill-upper {
   cursor: pointer;
   margin: 7px 5px 0 0;
   display: none;
+  background-color: #6F94AC;
 }
 #app .leftPanel .top .expandFullButton {
   display: block;
@@ -1975,6 +1982,7 @@ input[type=range]:focus::-ms-fill-upper {
   cursor: pointer;
   left: 35px;
 }
+/*added background color to match*/
 #app .rightPanel .top .collapseButton {
   position: absolute;
   background: url('../../img/uv-shared-module/arrows_right.png') no-repeat;
@@ -1984,7 +1992,9 @@ input[type=range]:focus::-ms-fill-upper {
   margin-top: 7px;
   display: block;
   left: 5px;
+  background-color: #6F94AC;
 }
+/*added background color to match*/
 #app .rightPanel .top .expandFullButton {
   position: absolute;
   background: url('../../img/uv-shared-module/arrows_left.png') no-repeat;
@@ -1994,6 +2004,7 @@ input[type=range]:focus::-ms-fill-upper {
   margin-top: 7px;
   display: none;
   left: 5px;
+  background-color: #6F94AC;
 }
 #app .rightPanel .closed {
   width: 25px;
@@ -2017,6 +2028,7 @@ input[type=range]:focus::-ms-fill-upper {
   color: #fff;
   text-decoration: none;
 }
+/*added background color to match*/
 #app .rightPanel .closed .expandButton {
   background: url('../../img/uv-shared-module/arrows_left.png') no-repeat;
   width: 20px;
@@ -2024,6 +2036,7 @@ input[type=range]:focus::-ms-fill-upper {
   cursor: pointer;
   margin: 7px 0 0 5px;
   display: block;
+  background-color: #6F94AC;
 }
 #app .rightPanel .closed .expandButton:focus {
   border: 1px solid #14a4c3;
@@ -2440,7 +2453,7 @@ input[type=range]:focus::-ms-fill-upper {
   overflow: auto;
 }
 #app {
-  background-color: #304B68;
+  background-color: #999999;
   position: relative;
 }
 #app .btn-default,
@@ -2469,9 +2482,10 @@ input[type=range]:focus::-ms-fill-upper {
   padding: 0 0 0 16px;
   font-weight: bold;
 }
+/*background color change*/
 #app .headerPanel {
   position: relative;
-  background-color: #211f1f;
+  background-color: #666666;
   color: #fff;
   height: 40px;
 }
@@ -2484,7 +2498,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 #app .leftPanel {
   position: absolute;
-  background: #211f1f;
+  background: #666666;
   border: none;
 }
 #app .centerPanel {
@@ -2492,7 +2506,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 #app .rightPanel {
   position: absolute;
-  background: #211f1f;
+  background: #666666;
   border: none;
 }
 #app .footerPanel {
