@@ -313,13 +313,13 @@ class UniversalViewerPlugin extends Omeka_Plugin_AbstractPlugin
         echo $args['view']->universalViewer($args);
     }
 
-    /**
+    /** Commented out to prevent double calling of viewer. 
      * Hook to display viewer.
      *
      * @param array $args
      *
      * @return void
-     */
+     
     public function hookPublicItemsShow($args)
     {
         if (!get_option('universalviewer_append_items_show')) {
@@ -330,7 +330,8 @@ class UniversalViewerPlugin extends Omeka_Plugin_AbstractPlugin
         }
         echo $args['view']->universalViewer($args);
     }
-
+    |*/
+    
     /**
      * Shortcode to display viewer.
      *
