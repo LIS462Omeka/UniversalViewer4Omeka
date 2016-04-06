@@ -16,7 +16,7 @@
     "searchWithinEnabled": true,
     "theme": "uv-en-GB-theme",
     "tokenStorage": "session",
-    "useArrowKeysToNavigate": false
+    "useArrowKeysToNavigate": true,
   },
   "modules": {
     "dialogue": {
@@ -216,10 +216,10 @@
       "options": {
         "elideCount": 40,
         "expandFullEnabled": true,
-        "galleryThumbHeight": 320,
-        "galleryThumbWidth": 200,
-        "oneColThumbHeight": 320,
-        "oneColThumbWidth": 200,
+        "galleryThumbHeight": 200,
+        "galleryThumbWidth": 110,
+        "oneColThumbHeight": 150,
+        "oneColThumbWidth": 90,
         "pageModeEnabled": true,
         "panelAnimationDuration": 250,
         "panelCollapsedWidth": 30,
